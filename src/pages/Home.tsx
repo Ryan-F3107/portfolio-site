@@ -1,8 +1,4 @@
-
-
-//Navbar - About, Projects, contact
-//Main section
-//Footer
+import { NavBar } from '../components/NavBar.tsx';
 import { StarBackground } from '../components/StarBackground.tsx';
 import {ThemeToggle} from '../components/ThemeToggle.tsx';
 export const Home = () => {
@@ -12,6 +8,13 @@ export const Home = () => {
             <ThemeToggle/>
             {/* background effect - starBackground */}
             <StarBackground/>
+            {/*Navbar - About, Projects, contact */}
+            <NavBar/>
         </div>
     )
 }
+/* 
+Remaining Components
+Main section
+Footer 
+*/
