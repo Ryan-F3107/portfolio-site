@@ -1,3 +1,5 @@
+import {AboutSection } from '../components/AboutSection.tsx';
+import { HeroSection } from '../components/HeroSection.tsx';
 import { NavBar } from '../components/NavBar.tsx';
 import { StarBackground } from '../components/StarBackground.tsx';
 import {ThemeToggle} from '../components/ThemeToggle.tsx';
@@ -10,6 +12,11 @@ export const Home = () => {
             <StarBackground/>
             {/*Navbar - About, Projects, contact */}
             <NavBar/>
+            {/*Main Content  */}
+            <main>
+                <HeroSection/>
+                <AboutSection/>
+            </main>
         </div>
     )
 }

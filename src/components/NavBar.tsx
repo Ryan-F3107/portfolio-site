@@ -14,7 +14,7 @@ const navItems:NavItem[] = [
 export const NavBar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     /* For Mobile NavBar */
-    const [isMenuOpen, setIsMenuOpen] = useState(true);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     useEffect(() => {
         const handleScroll = () => {
             setIsScrolled(window.screenY > 10) /* set when user scrolls more than height of navbar */
