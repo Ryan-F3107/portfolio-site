@@ -3,6 +3,8 @@ import { HeroSection } from '../components/HeroSection.tsx';
 import { NavBar } from '../components/NavBar.tsx';
 import { StarBackground } from '../components/StarBackground.tsx';
 import {ThemeToggle} from '../components/ThemeToggle.tsx';
+import { ProjectsSection } from '../components/ProjectsSection.tsx';
+
 export const Home = () => {
     return(
         <div className="min-h-screen bg-background text-foreground">
@@ -16,6 +18,7 @@ export const Home = () => {
             <main>
                 <HeroSection/>
                 <AboutSection/>
+                <ProjectsSection/>
             </main>
         </div>
     )
