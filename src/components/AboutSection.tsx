@@ -1,4 +1,4 @@
-import { FileUser } from "lucide-react";
+import { Code, FileUser, School } from "lucide-react";
 
 export const AboutSection = () => {
     return (
@@ -25,17 +25,19 @@ export const AboutSection = () => {
                     <div className="grid grid-cols-1 gap-6">
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
-
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <Code className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg underline">Career Journey</h4>
+                                    <p className="text-muted-foreground">
+                                    <ul>Consultant @ Capgemini</ul>
+                                    <ul>Junior Backend Web Developer @ Betalab</ul>
+                                    <ul>Teaching Assistant @ Queen's Uni (School of Computing Dept)</ul>
+                                    <ul>Service Staff @ The Printing & Copy Center</ul>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="gradient-border p-6 card-hover">
-
-                        </div>
-                        <div className="gradient-border p-6 card-hover">
-
-                        </div>
-                        <div className="gradient-border p-6 card-hover">
-
                         </div>
                     </div>
                 </div>
