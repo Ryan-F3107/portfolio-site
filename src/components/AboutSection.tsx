@@ -1,4 +1,4 @@
-import { Code, FileUser, School } from "lucide-react";
+import { Code, FileUser } from "lucide-react";
 
 export const AboutSection = () => {
     return (
