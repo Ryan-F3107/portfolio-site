@@ -4,6 +4,7 @@ import { NavBar } from '../components/NavBar.tsx';
 import { StarBackground } from '../components/StarBackground.tsx';
 import {ThemeToggle} from '../components/ThemeToggle.tsx';
 import { ProjectsSection } from '../components/ProjectsSection.tsx';
+import { ContactSection } from '../components/ContactSection.tsx';
 
 export const Home = () => {
     return(
@@ -19,12 +20,11 @@ export const Home = () => {
                 <HeroSection/>
                 <AboutSection/>
                 <ProjectsSection/>
+                <ContactSection/>
             </main>
         </div>
     )
 }
 /* 
-Remaining Components
-Main section
 Footer 
 */
