@@ -5,6 +5,7 @@ import { StarBackground } from '../components/StarBackground.tsx';
 import {ThemeToggle} from '../components/ThemeToggle.tsx';
 import { ProjectsSection } from '../components/ProjectsSection.tsx';
 import { ContactSection } from '../components/ContactSection.tsx';
+import { Footer } from '../components/Footer.tsx';
 
 export const Home = () => {
     return(
@@ -22,6 +23,7 @@ export const Home = () => {
                 <ProjectsSection/>
                 <ContactSection/>
             </main>
+            <Footer/>
         </div>
     )
 }
