@@ -14,8 +14,7 @@ export const HeroSection = () => {
                         <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">{" "}Fernandes</span>
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        Software Developer based in Mississauga, Canada. Started my journey in tech as a consultant within the SAP field and now I'm transitioning into Full-Stack development.
-                        I enjoy working on big projects, collaborating with people while learning new technologies to contribute towards a common goal.
+                        Software Developer from Ontario, Canada. I started my tech journey as a backend web developer at a student-run agency, grew into a professional SAP consultant, and I'm now expanding my skillset into full-stack development. I enjoy building scalable solutions, working with teams, and picking up new technologies along the way.
                     </p>
                     <div className="opacity-0 animate-fade-in-delay-4">
                         <a href="#projects" className="cosmic-button">
@@ -24,7 +23,7 @@ export const HeroSection = () => {
                     </div>
                 </div>
             </div>
-        <div className="absolute bottom-8 left-1/2 transform translate-x-1/2 flex flex-col items-center animate-bounce">
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col justify-center items-center animate-bounce">
             <span>Scroll</span>
             <ArrowBigDown className="h-5 w-5 text-primary"/>
         </div>

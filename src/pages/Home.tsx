@@ -1,4 +1,4 @@
-import {AboutSection } from '../components/AboutSection.tsx';
+/* import {AboutSection } from '../components/AboutSection.tsx'; */
 import { HeroSection } from '../components/HeroSection.tsx';
 import { NavBar } from '../components/NavBar.tsx';
 import { StarBackground } from '../components/StarBackground.tsx';
@@ -19,7 +19,7 @@ export const Home = () => {
             {/*Main Content  */}
             <main>
                 <HeroSection/>
-                <AboutSection/>
+                {/* <AboutSection/> */}
                 <ProjectsSection/>
                 <ContactSection/>
             </main>
