@@ -18,6 +18,15 @@ const projects = [
         tags:["React","CSS","Git"],
         demoUrl: "https://ryan-f3107.github.io/RoboFriends/",
         githubUrl:"https://github.com/Ryan-F3107/RoboFriends"
+    },
+    {
+        id: 3,
+        title: "Amazon Events Page",
+        description: "An Event RSVP page running mainly on AWS services:Amazon RDS, DynamoDB,Lambda function, S3,Cloudfront",
+        image:"/projects/AWS_Event_RSVP.png",
+        tags:["AWS","HTML","CSS","JavaScript","Node.js"],
+        demoUrl:"https://d3d45c8x5z1v9o.cloudfront.net/",
+        githubUrl:"https://github.com/Ryan-F3107/AWS-Event-Page",
     }
 ]
 export const ProjectsSection = () => {
