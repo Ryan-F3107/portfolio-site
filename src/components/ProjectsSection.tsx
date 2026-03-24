@@ -22,7 +22,7 @@ const projects = [
     {
         id: 3,
         title: "Amazon Events Page",
-        description: "An Event RSVP page running mainly on AWS services:Amazon RDS, DynamoDB,Lambda function, S3,Cloudfront",
+        description: "An Amazon Event management & RSVP page running mainly on AWS services:Amazon RDS, DynamoDB,Lambda function, S3,Cloudfront. Currently running on AWS free-tier hence the slow startup on live demos",
         image:"/projects/AWS_Event_RSVP.png",
         tags:["AWS","HTML","CSS","JavaScript","Node.js"],
         demoUrl:"https://d3d45c8x5z1v9o.cloudfront.net/",
@@ -31,8 +31,8 @@ const projects = [
     {
         id: 4,
         title: "StackEats Food Ordering App",
-        description: "A full-stack E2E food ordering platform where users can place orders and register/manage their own restaurant, including menu and order management. Developed using the MERN stack",
-        image:"/projects/AWS_Event_RSVP.png",
+        description: "A full-stack E2E food ordering platform where users can place orders and register/manage their own restaurant, including menu and order management. Developed using the MERN stack. Currently hosted on Reder free-tier hence the slow starup on live demos",
+        image:"/projects/HomePage.png",
         tags:["React","TypeScript","Node.js / Express","MongoDB","Render","ShadCN library","Stripe API"],
         demoUrl:"https://stack-food-ordering-app-frontend.onrender.com/",
         githubUrl:"https://github.com/Ryan-F3107/Stack-Food-Ordering-App-Frontend",
